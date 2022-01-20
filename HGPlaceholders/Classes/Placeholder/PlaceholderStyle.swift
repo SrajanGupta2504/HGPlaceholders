@@ -20,7 +20,7 @@ public struct PlaceholderStyle {
     public var titleFont = UIFont.boldSystemFont(ofSize: 19)
     /// The text alignment of the placeholder title, the default value is  NSTextAlignment.center
     public var titleTextAlignment = NSTextAlignment.center
-
+    public var actionFrame = CGRect()
     /// The color of the placeholder subtitle, the default value is gray
     public var subtitleColor: UIColor = .gray
     /// The font of the placeholder subtitle, the default value is  systemFont 14
