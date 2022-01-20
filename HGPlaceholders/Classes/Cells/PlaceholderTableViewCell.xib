@@ -63,7 +63,7 @@
                         </constraints>
                     </view>
                     <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QUR-tb-JTX">
-                        <rect key="frame" x="168.66666666666666" y="304" width="95.999999999999972" height="40"/>
+                        <rect key="frame" x="168.66666666666666" y="279" width="95.999999999999972" height="40"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="44" id="t3c-Ac-ibc">
                                 <variation key="heightClass=compact-widthClass=compact" constant="40"/>
@@ -91,7 +91,7 @@
                     <constraint firstItem="db1-Fl-G6D" firstAttribute="top" relation="greaterThanOrEqual" secondItem="iKY-3X-d02" secondAttribute="top" constant="15" id="dvA-Cx-6O9"/>
                     <constraint firstItem="QUR-tb-JTX" firstAttribute="centerX" secondItem="iKY-3X-d02" secondAttribute="centerX" id="fJs-fS-UMS"/>
                     <constraint firstItem="db1-Fl-G6D" firstAttribute="leading" secondItem="iKY-3X-d02" secondAttribute="leadingMargin" id="sSD-KP-29l"/>
-                    <constraint firstItem="QUR-tb-JTX" firstAttribute="top" secondItem="db1-Fl-G6D" secondAttribute="bottom" constant="10" id="zDq-pR-Ss6"/>
+                    <constraint firstItem="QUR-tb-JTX" firstAttribute="top" secondItem="db1-Fl-G6D" secondAttribute="bottom" constant="-15" id="zDq-pR-Ss6"/>
                 </constraints>
             </tableViewCellContentView>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>

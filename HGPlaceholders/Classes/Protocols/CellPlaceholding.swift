@@ -55,7 +55,6 @@ extension CellPlaceholding {
         actionButton?.titleLabel?.font = style.actionTitleFont
         
         activityIndicator?.color = style.activityIndicatorColor
-        
         titleLabel?.textColor = style.titleColor
         titleLabel?.font = style.titleFont
         titleLabel?.textAlignment = style.titleTextAlignment
